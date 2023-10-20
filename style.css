@@ -639,6 +639,29 @@ footer {
     transform: translate(0, 2px);
   }
 }
+@media only screen and (max-width: 600px) {
+  .form-entry {
+    min-width: 100px;
+    padding: 5px;
+  }
+  .form-entry:hover {
+    border-bottom: 5px solid rgb(155, 79, 213);
+    width: 190px;
+  }
+
+  .title {
+    display: block;
+    margin: 10px auto 5px;
+    width: 180px;
+  }
+
+  .contact article h2 {
+    font-size: 1.5em;
+  }
+  .contact article p {
+    font-size: 1em;
+  }
+}
 
 @media only screen and (min-width: 850px) {
   .burger-nav {
