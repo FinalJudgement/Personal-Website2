@@ -378,14 +378,14 @@ nav a:hover {
   -webkit-mask: var(--mask);
   mask: var(--mask);
   position: relative;
-  animation-name: example;
+  animation-name: curtain-effect;
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-delay: 0s;
   animation-iteration-count: infinite;
 }
 
-@keyframes example {
+@keyframes curtain-effect {
   0% {
     background-color: #7f1de0;
     left: -200px;
